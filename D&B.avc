@@ -5,7 +5,7 @@
   <generalInfo name="D&amp;B" desc="" width="640" height="480" deckCount="1"
                decksClosed="0" filePathType="0"/>
   <deckInfo>
-    <deck id="22445098" orderId="0" name="ProgettoVideoD&amp;B" numClips="138"
+    <deck id="22445098" orderId="0" name="ProgettoVideoD&amp;B" numClips="146"
           closed="0">
       <settings id="22445098">
         <name value="ProgettoVideoD&amp;B"/>
@@ -14,7 +14,7 @@
   </deckInfo>
   <layerInfo layerCount="3" trackCount="139"/>
   <playbackInfo>
-    <bpm curValue="185.999993" defaultValue="120" startValue="2" stopValue="500"/>
+    <bpm curValue="179.999997" defaultValue="120" startValue="2" stopValue="500"/>
     <quantization value="1"/>
     <paused value="0"/>
   </playbackInfo>
@@ -419,6 +419,21 @@
           <mixer value="1984087" index="2" selected="0"/>
         </mixers>
         <parameters>
+          <parameter orgDuration="80108333.3" duration="5000">
+            <name value="Position"/>
+            <nameGiven value="Position"/>
+            <textValue value=""/>
+            <extended value="0"/>
+            <values curValue="1" defaultValue="1" startValue="0" stopValue="1"/>
+            <pointsOfInterest value="0"/>
+            <jumpToPointsOfInterest value="-1"/>
+            <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
+            <direction value="0"/>
+            <playmode value="1"/>
+            <playmodeAway value="0"/>
+            <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
+            <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
+          </parameter>
           <parameter paramControlType="2">
             <name value="Position X"/>
             <nameGiven value="Position X"/>
@@ -455,6 +470,22 @@
     <audioLayer>
       <settings>
         <parameters>
+          <parameter>
+            <name value="Position"/>
+            <nameGiven value="Position"/>
+            <textValue value=""/>
+            <extended value="0"/>
+            <values curValue="6870315.27" defaultValue="1" startValue="6870315.27"
+                    stopValue="8448630.94"/>
+            <pointsOfInterest value="0"/>
+            <jumpToPointsOfInterest value="-1"/>
+            <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
+            <direction value="0"/>
+            <playmode value="1"/>
+            <playmodeAway value="0"/>
+            <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
+            <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
+          </parameter>
           <parameter>
             <name value="Pan"/>
             <nameGiven value="Pan"/>
@@ -495,6 +526,21 @@
           <mixer value="1984087" index="2" selected="0"/>
         </mixers>
         <parameters>
+          <parameter orgDuration="80108333.3" duration="5000">
+            <name value="Position"/>
+            <nameGiven value="Position"/>
+            <textValue value=""/>
+            <extended value="0"/>
+            <values curValue="1" defaultValue="1" startValue="0" stopValue="1"/>
+            <pointsOfInterest value="0"/>
+            <jumpToPointsOfInterest value="-1"/>
+            <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
+            <direction value="0"/>
+            <playmode value="1"/>
+            <playmodeAway value="0"/>
+            <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
+            <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
+          </parameter>
           <parameter>
             <name value="Opacity"/>
             <nameGiven value="Opacity"/>
@@ -543,6 +589,27 @@
         </parameters>
       </settings>
     </videoLayer>
+    <audioLayer>
+      <settings>
+        <parameters>
+          <parameter orgDuration="3.527995e+09" duration="5000">
+            <name value="Position"/>
+            <nameGiven value="Position"/>
+            <textValue value=""/>
+            <extended value="0"/>
+            <values curValue="1" defaultValue="1" startValue="0" stopValue="1"/>
+            <pointsOfInterest value="0"/>
+            <jumpToPointsOfInterest value="-1"/>
+            <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
+            <direction value="0"/>
+            <playmode value="1"/>
+            <playmodeAway value="0"/>
+            <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
+            <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
+          </parameter>
+        </parameters>
+      </settings>
+    </audioLayer>
   </layer>
   <layer layerIndex="2">
     <settings>
@@ -754,7 +821,7 @@
   <track/>
   <track/>
   <decks>
-    <deck id="22445098" orderId="0" name="ProgettoVideoD&amp;B" numClips="138"
+    <deck id="22445098" orderId="0" name="ProgettoVideoD&amp;B" numClips="146"
           closed="0">
       <clip uniqueId="114369585" layerIndex="0" trackIndex="0">
         <settings fileId="-357182620">
@@ -805,7 +872,7 @@
                 <nameGiven value="Position"/>
                 <textValue value=""/>
                 <extended value="0"/>
-                <values curValue="4659.29271" defaultValue="0" startValue="0" stopValue="14600"/>
+                <values curValue="3796.48525" defaultValue="0" startValue="0" stopValue="14600"/>
                 <pointsOfInterest value="0"/>
                 <jumpToPointsOfInterest value="-1"/>
                 <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
@@ -853,7 +920,7 @@
                 <nameGiven value="Position"/>
                 <textValue value=""/>
                 <extended value="0"/>
-                <values curValue="98515" defaultValue="0" startValue="0" stopValue="270340.991"/>
+                <values curValue="80272" defaultValue="0" startValue="0" stopValue="270340.991"/>
                 <pointsOfInterest value="0"/>
                 <jumpToPointsOfInterest value="-1"/>
                 <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
@@ -4074,11 +4141,12 @@
               <parameter paramType="110">
                 <name value="Alpha Type"/>
                 <nameGiven value="Alpha Type"/>
-                <choices value="2"/>
+                <choices value="1"/>
               </parameter>
               <parameter paramControlType="2">
                 <name value="Duration"/>
                 <nameGiven value="Duration"/>
+                <values curValue="5000" defaultValue="5000" startValue="0" stopValue="2.0736e+09"/>
               </parameter>
             </settings>
           </provider>
@@ -8291,7 +8359,7 @@
                 <nameGiven value="Position"/>
                 <textValue value=""/>
                 <extended value="0"/>
-                <values curValue="12852.2514" defaultValue="0" startValue="0" stopValue="16021.6667"/>
+                <values curValue="7960.73149" defaultValue="0" startValue="0" stopValue="16021.6667"/>
                 <pointsOfInterest value="0"/>
                 <jumpToPointsOfInterest value="-1"/>
                 <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
@@ -8339,7 +8407,7 @@
                 <nameGiven value="Position"/>
                 <textValue value=""/>
                 <extended value="0"/>
-                <values curValue="567707" defaultValue="0" startValue="0" stopValue="705599"/>
+                <values curValue="352180" defaultValue="0" startValue="0" stopValue="705599"/>
                 <pointsOfInterest value="0"/>
                 <jumpToPointsOfInterest value="-1"/>
                 <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
@@ -13147,11 +13215,12 @@
               <parameter paramType="110">
                 <name value="Alpha Type"/>
                 <nameGiven value="Alpha Type"/>
-                <choices value="2"/>
+                <choices value="1"/>
               </parameter>
               <parameter paramControlType="2">
                 <name value="Duration"/>
                 <nameGiven value="Duration"/>
+                <values curValue="5000" defaultValue="5000" startValue="0" stopValue="2.0736e+09"/>
               </parameter>
             </settings>
           </provider>
@@ -15256,929 +15325,6 @@
           </settings>
         </audioClip>
       </clip>
-      <clip uniqueId="47155664" layerIndex="0" trackIndex="108">
-        <settings fileId="1881931370">
-          <name value="Captain America classic cartoon intro 1966"/>
-          <nameGiven value="Captain America classic cartoon intro 1966"/>
-          <desc value="empty clip"/>
-          <quantization value="2"/>
-          <autoPilot>
-            <action value="-1"/>
-          </autoPilot>
-          <ui>
-            <propertySectionsState value="0">
-              <choices>
-                <choice index="0" value="110" name="Dashboard" isEnabled="1" isActive="1"/>
-                <choice index="1" value="123" name="Video Info" isEnabled="1" isActive="1"/>
-                <choice index="2" value="121" name="Video FX" isEnabled="1" isActive="1"/>
-                <choice index="3" value="122" name="Video Transform" isEnabled="1" isActive="1"/>
-                <choice index="4" value="124" name="Video Mask" isEnabled="1" isActive="0"/>
-                <choice index="5" value="133" name="Audio Info" isEnabled="1" isActive="0"/>
-                <choice index="6" value="131" name="Audio FX" isEnabled="1" isActive="1"/>
-                <choice index="7" value="132" name="Audio Transform" isEnabled="1" isActive="1"/>
-                <choice index="8" value="140" name="Source" isEnabled="1" isActive="1"/>
-                <choice index="9" value="150" name="Transport" isEnabled="1" isActive="1"/>
-                <choice index="10" value="160" name="Cue points" isEnabled="1" isActive="0"/>
-                <choice index="11" value="170" name="Beatlooper" isEnabled="1" isActive="0"/>
-                <choice index="12" value="180" name="Auto Pilot" isEnabled="1" isActive="0"/>
-              </choices>
-            </propertySectionsState>
-          </ui>
-        </settings>
-        <videoClip>
-          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B/wish/Captain America classic cartoon intro 1966.mov"
-                  shortName="Captain America classic cartoon intro 1966.mov" ext=".mov"/>
-          <settings name="Captain America classic cartoon intro 1966" desc="File could not be found"
-                    fileId="1881931370" renderPassOrder="0,1,2">
-            <aScale value="0"/>
-            <SMPTEOffsetMilliseconds value="00:00:00.00"/>
-            <playbackSettings>
-              <timelineMode value="2"/>
-              <beats curValue="32" defaultValue="4" startValue="1" stopValue="10000"/>
-            </playbackSettings>
-            <parameters>
-              <parameter paramType="10" paramSubType="3" paramControlType="1" orgDuration="19736.6668"
-                         duration="19736.6667" linkedParamPath="/layer/clip/audio/position/">
-                <name value="Position"/>
-                <nameGiven value="Position"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="12574.1667" defaultValue="0" startValue="0" stopValue="1.79769313e+308"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="0"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-                <modifiers>
-                  <modifier type="4" index="1000">
-                    <properties>
-                      <easeIn value="0"/>
-                      <easeOut value="1"/>
-                      <option value="2"/>
-                    </properties>
-                  </modifier>
-                </modifiers>
-              </parameter>
-              <parameter paramControlType="2">
-                <name value="Position X"/>
-                <nameGiven value="Position X"/>
-              </parameter>
-              <parameter paramControlType="2">
-                <name value="Position Y"/>
-                <nameGiven value="Position Y"/>
-              </parameter>
-            </parameters>
-          </settings>
-          <effects>
-            <effect uniquePresetId="27258522" fileName="/Applications/Resolume Arena 4.1.11/plugins/vfx/SyzGL_Goo.bundle/Contents/MacOS/SyzGL_Goo"
-                    uniqueId="sy06" name="Goo">
-              <mixer value="1984084"/>
-              <bypassed value="0"/>
-              <folded value="0"/>
-              <versionInfo name="Resolume Arena" majorVersion="4" minorVersion="1" microVersion="11"
-                           revision="5588" id="1"/>
-              <parameter>
-                <name value="Opacity"/>
-                <nameGiven value="Opacity"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="1" defaultValue="1" startValue="0" stopValue="1"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="3"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter>
-                <name value="param1"/>
-                <nameGiven value="Speed"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="0.491694352" defaultValue="0.140000001" startValue="0"
-                        stopValue="1"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="3"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter>
-                <name value="param2"/>
-                <nameGiven value="MaxDistortionX"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="0.140000001" defaultValue="0.140000001" startValue="0"
-                        stopValue="1"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="3"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter>
-                <name value="param3"/>
-                <nameGiven value="MaxDistortionY"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="0.140000001" defaultValue="0.140000001" startValue="0"
-                        stopValue="1"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="3"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter>
-                <name value="param4"/>
-                <nameGiven value="MaxDistortionZ"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="1" defaultValue="0" startValue="0" stopValue="1"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="3"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter paramType="0">
-                <name value="param5"/>
-                <nameGiven value="Black BG"/>
-              </parameter>
-            </effect>
-          </effects>
-        </videoClip>
-        <audioClip>
-          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B/wish/Captain America classic cartoon intro 1966.mov"
-                  shortName="Captain America classic cartoon intro 1966.mov" ext=".mov"/>
-          <settings name="Captain America classic cartoon intro 1966" desc="QuickTime file&#13;&#10;44.100kHz, Stereo&#13;&#10;00:00:19:000"
-                    fileId="1881931370">
-            <playbackSettings>
-              <timelineMode value="2"/>
-              <bpm curValue="120" defaultValue="120" startValue="30" stopValue="500"/>
-              <beats curValue="32" defaultValue="4" startValue="1" stopValue="10000"/>
-              <syncMode value="2"/>
-            </playbackSettings>
-            <parameters>
-              <parameter paramType="10" paramSubType="1" paramControlType="1" orgDuration="4.07640653e+306"
-                         duration="1912.6438">
-                <name value="Position"/>
-                <nameGiven value="Position"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="533822.75" defaultValue="0" startValue="533822.75"
-                        stopValue="618170.241"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="3"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-                <modifiers>
-                  <modifier type="4" index="1000">
-                    <properties>
-                      <easeIn value="0"/>
-                      <easeOut value="1"/>
-                      <option value="2"/>
-                    </properties>
-                  </modifier>
-                </modifiers>
-              </parameter>
-            </parameters>
-          </settings>
-        </audioClip>
-      </clip>
-      <clip uniqueId="688454" layerIndex="0" trackIndex="109">
-        <settings fileId="1881931370">
-          <name value="Captain America classic cartoon intro 1966"/>
-          <nameGiven value="Captain America classic cartoon intro 1966"/>
-          <desc value="empty clip"/>
-          <quantization value="2"/>
-          <autoPilot>
-            <action value="-1"/>
-          </autoPilot>
-          <ui>
-            <propertySectionsState value="0">
-              <choices>
-                <choice index="0" value="110" name="Dashboard" isEnabled="1" isActive="0"/>
-                <choice index="1" value="123" name="Video Info" isEnabled="1" isActive="0"/>
-                <choice index="2" value="121" name="Video FX" isEnabled="1" isActive="1"/>
-                <choice index="3" value="122" name="Video Transform" isEnabled="1" isActive="1"/>
-                <choice index="4" value="124" name="Video Mask" isEnabled="1" isActive="0"/>
-                <choice index="5" value="133" name="Audio Info" isEnabled="1" isActive="0"/>
-                <choice index="6" value="131" name="Audio FX" isEnabled="1" isActive="1"/>
-                <choice index="7" value="132" name="Audio Transform" isEnabled="1" isActive="1"/>
-                <choice index="8" value="140" name="Source" isEnabled="1" isActive="1"/>
-                <choice index="9" value="150" name="Transport" isEnabled="1" isActive="0"/>
-                <choice index="10" value="160" name="Cue points" isEnabled="1" isActive="0"/>
-                <choice index="11" value="170" name="Beatlooper" isEnabled="1" isActive="0"/>
-                <choice index="12" value="180" name="Auto Pilot" isEnabled="1" isActive="0"/>
-              </choices>
-            </propertySectionsState>
-          </ui>
-        </settings>
-        <videoClip>
-          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B/wish/Captain America classic cartoon intro 1966.mov"
-                  shortName="Captain America classic cartoon intro 1966.mov" ext=".mov"/>
-          <settings name="Captain America classic cartoon intro 1966" desc="File could not be found"
-                    fileId="1881931370" renderPassOrder="0,1,2">
-            <aScale value="0"/>
-            <SMPTEOffsetMilliseconds value="00:00:00.00"/>
-            <playbackSettings>
-              <timelineMode value="2"/>
-              <beats curValue="32" defaultValue="4" startValue="1" stopValue="10000"/>
-            </playbackSettings>
-            <parameters>
-              <parameter paramType="10" paramSubType="3" paramControlType="1" orgDuration="19736.6668"
-                         duration="19736.6667" linkedParamPath="/layer/clip/audio/position/">
-                <name value="Position"/>
-                <nameGiven value="Position"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="5106.68998" defaultValue="0" startValue="0" stopValue="1.79769313e+308"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="0"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-                <modifiers>
-                  <modifier type="4" index="1000">
-                    <properties>
-                      <easeIn value="0"/>
-                      <easeOut value="1"/>
-                      <option value="2"/>
-                    </properties>
-                  </modifier>
-                </modifiers>
-              </parameter>
-              <parameter>
-                <name value="Scale"/>
-                <nameGiven value="Scale"/>
-                <values curValue="132.231405" defaultValue="100" startValue="0" stopValue="1000"/>
-              </parameter>
-              <parameter paramControlType="2">
-                <name value="Position X"/>
-                <nameGiven value="Position X"/>
-              </parameter>
-              <parameter paramControlType="2">
-                <name value="Position Y"/>
-                <nameGiven value="Position Y"/>
-              </parameter>
-            </parameters>
-          </settings>
-        </videoClip>
-        <audioClip>
-          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B/wish/Captain America classic cartoon intro 1966.mov"
-                  shortName="Captain America classic cartoon intro 1966.mov" ext=".mov"/>
-          <settings name="Captain America classic cartoon intro 1966" desc="QuickTime file&#13;&#10;44.100kHz, Stereo&#13;&#10;00:00:19:000"
-                    fileId="1881931370">
-            <playbackSettings>
-              <timelineMode value="2"/>
-              <bpm curValue="120" defaultValue="120" startValue="30" stopValue="500"/>
-              <beats curValue="32" defaultValue="4" startValue="1" stopValue="10000"/>
-              <syncMode value="2"/>
-            </playbackSettings>
-            <parameters>
-              <parameter paramType="10" paramSubType="1" paramControlType="1" orgDuration="4.07640653e+306"
-                         duration="9101.3986">
-                <name value="Position"/>
-                <nameGiven value="Position"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="216799.042" defaultValue="0" startValue="216799.042"
-                        stopValue="618170.241"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="0"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-                <modifiers>
-                  <modifier type="4" index="1000">
-                    <properties>
-                      <easeIn value="0"/>
-                      <easeOut value="1"/>
-                      <option value="2"/>
-                    </properties>
-                  </modifier>
-                </modifiers>
-              </parameter>
-            </parameters>
-          </settings>
-        </audioClip>
-      </clip>
-      <clip uniqueId="688488" layerIndex="0" trackIndex="110">
-        <settings fileId="1881931370">
-          <name value="Captain America classic cartoon intro 1966"/>
-          <nameGiven value="Captain America classic cartoon intro 1966"/>
-          <desc value="empty clip"/>
-          <quantization value="2"/>
-          <autoPilot>
-            <action value="-1"/>
-          </autoPilot>
-        </settings>
-        <videoClip>
-          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B/wish/Captain America classic cartoon intro 1966.mov"
-                  shortName="Captain America classic cartoon intro 1966.mov" ext=".mov"/>
-          <settings name="Captain America classic cartoon intro 1966" desc="File could not be found"
-                    fileId="1881931370" renderPassOrder="0,1,2">
-            <aScale value="0"/>
-            <SMPTEOffsetMilliseconds value="00:00:00.00"/>
-            <playbackSettings>
-              <timelineMode value="2"/>
-              <beats curValue="32" defaultValue="4" startValue="1" stopValue="10000"/>
-            </playbackSettings>
-            <parameters>
-              <parameter paramType="10" paramSubType="3" paramControlType="1" orgDuration="19736.6668"
-                         duration="19736.6667" linkedParamPath="/layer/clip/audio/position/">
-                <name value="Position"/>
-                <nameGiven value="Position"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="5106.68998" defaultValue="0" startValue="0" stopValue="1.79769313e+308"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="0"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-                <modifiers>
-                  <modifier type="4" index="1000">
-                    <properties>
-                      <easeIn value="0"/>
-                      <easeOut value="1"/>
-                      <option value="2"/>
-                    </properties>
-                  </modifier>
-                </modifiers>
-              </parameter>
-              <parameter paramControlType="2">
-                <name value="Position X"/>
-                <nameGiven value="Position X"/>
-              </parameter>
-              <parameter paramControlType="2">
-                <name value="Position Y"/>
-                <nameGiven value="Position Y"/>
-              </parameter>
-            </parameters>
-          </settings>
-          <effects>
-            <effect uniquePresetId="27258405" fileName="/Applications/Resolume Arena 4.1.11/plugins/vfx/FFGLBarshift.bundle/Contents/MacOS/FFGLBarshift"
-                    uniqueId="MBSH" name="Shift Glitch">
-              <mixer value="1984084"/>
-              <bypassed value="0"/>
-              <folded value="0"/>
-              <versionInfo name="Resolume Arena" majorVersion="4" minorVersion="1" microVersion="11"
-                           revision="5588" id="1"/>
-              <parameter>
-                <name value="Opacity"/>
-                <nameGiven value="Opacity"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="1" defaultValue="1" startValue="0" stopValue="1"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="3"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter>
-                <name value="param1"/>
-                <nameGiven value="Frequency"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="1" defaultValue="1" startValue="0" stopValue="1"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="3"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter>
-                <name value="param2"/>
-                <nameGiven value="Vertical"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="0.0849858357" defaultValue="0" startValue="0" stopValue="1"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="3"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter>
-                <name value="param3"/>
-                <nameGiven value="Horizontal"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="0" defaultValue="0.5" startValue="0" stopValue="1"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="3"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter>
-                <name value="param4"/>
-                <nameGiven value="Size"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="0.212464589" defaultValue="0.5" startValue="0" stopValue="1"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="3"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter paramType="0">
-                <name value="param5"/>
-                <nameGiven value="Black BG"/>
-              </parameter>
-            </effect>
-            <effect uniquePresetId="27258379" fileName="/Applications/Resolume Arena 4.1.11/plugins/vfx/AVFFGLShiftRGB.bundle/Contents/MacOS/AVFFGLShiftRGB"
-                    uniqueId="A153" name="Shift RGB">
-              <mixer value="1984084"/>
-              <bypassed value="0"/>
-              <folded value="0"/>
-              <versionInfo name="Resolume Arena" majorVersion="4" minorVersion="1" microVersion="11"
-                           revision="5588" id="1"/>
-              <parameter>
-                <name value="Opacity"/>
-                <nameGiven value="Opacity"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="1" defaultValue="1" startValue="0" stopValue="1"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="3"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter>
-                <name value="param1"/>
-                <nameGiven value="Distance"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="1" defaultValue="1" startValue="0" stopValue="1"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="3"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter>
-                <name value="param2"/>
-                <nameGiven value="Mode"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="1" defaultValue="0" startValue="0" stopValue="1"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="3"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter paramSubType="2" orgDuration="5000.00002" duration="1015.22843">
-                <name value="param3"/>
-                <nameGiven value="R"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="0.527833241" defaultValue="0.5" startValue="0.408629442"
-                        stopValue="0.611675127"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="0"/>
-                <playmode value="2"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter paramSubType="2" duration="977.15736">
-                <name value="param4"/>
-                <nameGiven value="G"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="0.441709901" defaultValue="0.5" startValue="0.411167513"
-                        stopValue="0.606598985"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="1"/>
-                <playmode value="2"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter paramSubType="2" orgDuration="4999.99999" duration="926.395939">
-                <name value="param5"/>
-                <nameGiven value="B"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="0.578765739" defaultValue="0.5" startValue="0.434010152"
-                        stopValue="0.61928934"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="1"/>
-                <playmode value="2"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter paramType="0">
-                <name value="param6"/>
-                <nameGiven value="Black BG"/>
-              </parameter>
-            </effect>
-          </effects>
-        </videoClip>
-        <audioClip>
-          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B/wish/Captain America classic cartoon intro 1966.mov"
-                  shortName="Captain America classic cartoon intro 1966.mov" ext=".mov"/>
-          <settings name="Captain America classic cartoon intro 1966" desc="QuickTime file&#13;&#10;44.100kHz, Stereo&#13;&#10;00:00:19:000"
-                    fileId="1881931370">
-            <playbackSettings>
-              <timelineMode value="2"/>
-              <bpm curValue="120" defaultValue="120" startValue="30" stopValue="500"/>
-              <beats curValue="32" defaultValue="4" startValue="1" stopValue="10000"/>
-              <syncMode value="2"/>
-            </playbackSettings>
-            <parameters>
-              <parameter paramType="10" paramSubType="1" paramControlType="1" orgDuration="4.07640653e+306"
-                         duration="9101.3986">
-                <name value="Position"/>
-                <nameGiven value="Position"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="216799.042" defaultValue="0" startValue="216799.042"
-                        stopValue="618170.241"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="0"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-                <modifiers>
-                  <modifier type="4" index="1000">
-                    <properties>
-                      <easeIn value="0"/>
-                      <easeOut value="1"/>
-                      <option value="2"/>
-                    </properties>
-                  </modifier>
-                </modifiers>
-              </parameter>
-            </parameters>
-          </settings>
-        </audioClip>
-      </clip>
-      <clip uniqueId="688507" layerIndex="0" trackIndex="111">
-        <settings fileId="1881931370">
-          <name value="Captain America classic cartoon intro 1966"/>
-          <nameGiven value="Captain America classic cartoon intro 1966"/>
-          <desc value="empty clip"/>
-          <quantization value="2"/>
-          <autoPilot>
-            <action value="-1"/>
-          </autoPilot>
-        </settings>
-        <videoClip>
-          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B/wish/Captain America classic cartoon intro 1966.mov"
-                  shortName="Captain America classic cartoon intro 1966.mov" ext=".mov"/>
-          <settings name="Captain America classic cartoon intro 1966" desc="File could not be found"
-                    fileId="1881931370" renderPassOrder="0,1,2">
-            <aScale value="0"/>
-            <SMPTEOffsetMilliseconds value="00:00:00.00"/>
-            <playbackSettings>
-              <timelineMode value="2"/>
-              <beats curValue="32" defaultValue="4" startValue="1" stopValue="10000"/>
-            </playbackSettings>
-            <parameters>
-              <parameter paramType="10" paramSubType="3" paramControlType="1" orgDuration="19736.6668"
-                         duration="19736.6667" linkedParamPath="/layer/clip/audio/position/">
-                <name value="Position"/>
-                <nameGiven value="Position"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="5106.68998" defaultValue="0" startValue="0" stopValue="1.79769313e+308"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="0"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-                <modifiers>
-                  <modifier type="4" index="1000">
-                    <properties>
-                      <easeIn value="0"/>
-                      <easeOut value="1"/>
-                      <option value="2"/>
-                    </properties>
-                  </modifier>
-                </modifiers>
-              </parameter>
-              <parameter paramControlType="2">
-                <name value="Position X"/>
-                <nameGiven value="Position X"/>
-              </parameter>
-              <parameter paramControlType="2">
-                <name value="Position Y"/>
-                <nameGiven value="Position Y"/>
-              </parameter>
-            </parameters>
-          </settings>
-          <effects>
-            <effect uniquePresetId="27258405" fileName="/Applications/Resolume Arena 4.1.11/plugins/vfx/FFGLBarshift.bundle/Contents/MacOS/FFGLBarshift"
-                    uniqueId="MBSH" name="Shift Glitch">
-              <mixer value="1984084"/>
-              <bypassed value="0"/>
-              <folded value="0"/>
-              <versionInfo name="Resolume Arena" majorVersion="4" minorVersion="1" microVersion="11"
-                           revision="5588" id="1"/>
-              <parameter>
-                <name value="Opacity"/>
-                <nameGiven value="Opacity"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="1" defaultValue="1" startValue="0" stopValue="1"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="3"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter>
-                <name value="param1"/>
-                <nameGiven value="Frequency"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="1" defaultValue="1" startValue="0" stopValue="1"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="3"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter>
-                <name value="param2"/>
-                <nameGiven value="Vertical"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="0.0849858357" defaultValue="0" startValue="0" stopValue="1"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="3"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter>
-                <name value="param3"/>
-                <nameGiven value="Horizontal"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="0" defaultValue="0.5" startValue="0" stopValue="1"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="3"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter>
-                <name value="param4"/>
-                <nameGiven value="Size"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="0.212464589" defaultValue="0.5" startValue="0" stopValue="1"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="3"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter paramType="0">
-                <name value="param5"/>
-                <nameGiven value="Black BG"/>
-              </parameter>
-            </effect>
-            <effect uniquePresetId="27258379" fileName="/Applications/Resolume Arena 4.1.11/plugins/vfx/AVFFGLShiftRGB.bundle/Contents/MacOS/AVFFGLShiftRGB"
-                    uniqueId="A153" name="Shift RGB">
-              <mixer value="1984084"/>
-              <bypassed value="0"/>
-              <folded value="0"/>
-              <versionInfo name="Resolume Arena" majorVersion="4" minorVersion="1" microVersion="11"
-                           revision="5588" id="1"/>
-              <parameter>
-                <name value="Opacity"/>
-                <nameGiven value="Opacity"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="1" defaultValue="1" startValue="0" stopValue="1"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="3"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter>
-                <name value="param1"/>
-                <nameGiven value="Distance"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="1" defaultValue="1" startValue="0" stopValue="1"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="3"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter>
-                <name value="param2"/>
-                <nameGiven value="Mode"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="1" defaultValue="0" startValue="0" stopValue="1"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="3"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter paramSubType="2" orgDuration="5000.00002" duration="1015.22843">
-                <name value="param3"/>
-                <nameGiven value="R"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="0.41855267" defaultValue="0.5" startValue="0.408629442"
-                        stopValue="0.611675127"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="0"/>
-                <playmode value="2"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter paramSubType="2" duration="977.15736">
-                <name value="param4"/>
-                <nameGiven value="G"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="0.482004453" defaultValue="0.5" startValue="0.411167513"
-                        stopValue="0.606598985"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="0"/>
-                <playmode value="2"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter paramSubType="2" orgDuration="4999.99999" duration="926.395939">
-                <name value="param5"/>
-                <nameGiven value="B"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="0.586065365" defaultValue="0.5" startValue="0.434010152"
-                        stopValue="0.61928934"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="0"/>
-                <playmode value="2"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter paramType="0">
-                <name value="param6"/>
-                <nameGiven value="Black BG"/>
-              </parameter>
-            </effect>
-          </effects>
-        </videoClip>
-        <audioClip>
-          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B/wish/Captain America classic cartoon intro 1966.mov"
-                  shortName="Captain America classic cartoon intro 1966.mov" ext=".mov"/>
-          <settings name="Captain America classic cartoon intro 1966" desc="QuickTime file&#13;&#10;44.100kHz, Stereo&#13;&#10;00:00:19:000"
-                    fileId="1881931370">
-            <playbackSettings>
-              <timelineMode value="2"/>
-              <bpm curValue="120" defaultValue="120" startValue="30" stopValue="500"/>
-              <beats curValue="32" defaultValue="4" startValue="1" stopValue="10000"/>
-              <syncMode value="2"/>
-            </playbackSettings>
-            <parameters>
-              <parameter paramType="10" paramSubType="1" paramControlType="1" orgDuration="4.07640653e+306"
-                         duration="9101.3986">
-                <name value="Position"/>
-                <nameGiven value="Position"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="216799.042" defaultValue="0" startValue="216799.042"
-                        stopValue="618170.241"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="0"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-                <modifiers>
-                  <modifier type="4" index="1000">
-                    <properties>
-                      <easeIn value="0"/>
-                      <easeOut value="1"/>
-                      <option value="2"/>
-                    </properties>
-                  </modifier>
-                </modifiers>
-              </parameter>
-            </parameters>
-          </settings>
-        </audioClip>
-      </clip>
       <clip uniqueId="69802776" layerIndex="0" trackIndex="116">
         <settings fileId="1991580546">
           <name value="LSD_Effect_(Effect_of_LSD)"/>
@@ -16207,7 +15353,7 @@
                 <nameGiven value="Position"/>
                 <textValue value=""/>
                 <extended value="0"/>
-                <values curValue="45005.086" defaultValue="0" startValue="0" stopValue="300766.667"/>
+                <values curValue="43565.7253" defaultValue="0" startValue="0" stopValue="300766.667"/>
                 <pointsOfInterest value="0"/>
                 <jumpToPointsOfInterest value="-1"/>
                 <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
@@ -16265,7 +15411,7 @@
                 <nameGiven value="Position"/>
                 <textValue value=""/>
                 <extended value="0"/>
-                <values curValue="1978893" defaultValue="0" startValue="1903263.01" stopValue="2274631.41"/>
+                <values curValue="1916351" defaultValue="0" startValue="1903263.01" stopValue="2274631.41"/>
                 <pointsOfInterest value="0"/>
                 <jumpToPointsOfInterest value="-1"/>
                 <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
@@ -16316,7 +15462,7 @@
                 <nameGiven value="Position"/>
                 <textValue value=""/>
                 <extended value="0"/>
-                <values curValue="73032.7904" defaultValue="0" startValue="0" stopValue="300766.667"/>
+                <values curValue="78461.0949" defaultValue="0" startValue="0" stopValue="300766.667"/>
                 <pointsOfInterest value="0"/>
                 <jumpToPointsOfInterest value="-1"/>
                 <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
@@ -16374,7 +15520,7 @@
                 <nameGiven value="Position"/>
                 <textValue value=""/>
                 <extended value="0"/>
-                <values curValue="3210970" defaultValue="0" startValue="3203052.39" stopValue="3899368.13"/>
+                <values curValue="3451314" defaultValue="0" startValue="3203052.39" stopValue="3899368.13"/>
                 <pointsOfInterest value="0"/>
                 <jumpToPointsOfInterest value="-1"/>
                 <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
@@ -16425,7 +15571,7 @@
                 <nameGiven value="Position"/>
                 <textValue value=""/>
                 <extended value="0"/>
-                <values curValue="83437.9311" defaultValue="0" startValue="0" stopValue="300766.667"/>
+                <values curValue="88550.1919" defaultValue="0" startValue="0" stopValue="300766.667"/>
                 <pointsOfInterest value="0"/>
                 <jumpToPointsOfInterest value="-1"/>
                 <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
@@ -16483,7 +15629,876 @@
                 <nameGiven value="Position"/>
                 <textValue value=""/>
                 <extended value="0"/>
-                <values curValue="3670233" defaultValue="0" startValue="3620841.83" stopValue="3899368.13"/>
+                <values curValue="3893856" defaultValue="0" startValue="3620841.83" stopValue="3899368.13"/>
+                <pointsOfInterest value="0"/>
+                <jumpToPointsOfInterest value="-1"/>
+                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
+                <direction value="1"/>
+                <playmode value="2"/>
+                <playmodeAway value="0"/>
+                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
+                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
+                <modifiers>
+                  <modifier type="4" index="1000">
+                    <properties>
+                      <easeIn value="0"/>
+                      <easeOut value="1"/>
+                      <option value="2"/>
+                    </properties>
+                  </modifier>
+                </modifiers>
+              </parameter>
+            </parameters>
+          </settings>
+        </audioClip>
+      </clip>
+      <clip uniqueId="11317173" layerIndex="0" trackIndex="119">
+        <settings fileId="1991580546">
+          <name value="LSD_Effect_(Effect_of_LSD)"/>
+          <nameGiven value="LSD_Effect_(Effect_of_LSD)"/>
+          <desc value="empty clip"/>
+          <quantization value="2"/>
+          <autoPilot>
+            <action value="-1"/>
+          </autoPilot>
+        </settings>
+        <videoClip>
+          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B_/DrumAndBassVideo/LSD_Effect_(Effect_of_LSD).mov"
+                  shortName="LSD_Effect_(Effect_of_LSD).mov" ext=".mov"/>
+          <settings name="LSD_Effect_(Effect_of_LSD)" desc="H.264&#13;&#10;320x240&#13;&#10;25 FPS, 00:05:00:767"
+                    fileId="1991580546" renderPassOrder="0,1,2">
+            <aScale value="0"/>
+            <SMPTEOffsetMilliseconds value="00:00:00.00"/>
+            <playbackSettings>
+              <timelineMode value="2"/>
+              <beats curValue="512" defaultValue="4" startValue="1" stopValue="10000"/>
+            </playbackSettings>
+            <parameters>
+              <parameter paramType="10" paramSubType="3" paramControlType="1" orgDuration="300766.667"
+                         duration="300766.667" linkedParamPath="/layer/clip/audio/position/">
+                <name value="Position"/>
+                <nameGiven value="Position"/>
+                <textValue value=""/>
+                <extended value="0"/>
+                <values curValue="88540.9393" defaultValue="0" startValue="0" stopValue="300766.667"/>
+                <pointsOfInterest value="0"/>
+                <jumpToPointsOfInterest value="-1"/>
+                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
+                <direction value="0"/>
+                <playmode value="1"/>
+                <playmodeAway value="0"/>
+                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
+                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
+                <modifiers>
+                  <modifier type="4" index="1000">
+                    <properties>
+                      <easeIn value="0"/>
+                      <easeOut value="1"/>
+                      <option value="2"/>
+                    </properties>
+                  </modifier>
+                </modifiers>
+              </parameter>
+              <parameter>
+                <name value="Width"/>
+                <nameGiven value="Width"/>
+                <values curValue="725.873418" defaultValue="320" startValue="0" stopValue="16384"/>
+              </parameter>
+              <parameter>
+                <name value="Height"/>
+                <nameGiven value="Height"/>
+                <values curValue="725.873418" defaultValue="240" startValue="0" stopValue="16384"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Position X"/>
+                <nameGiven value="Position X"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Position Y"/>
+                <nameGiven value="Position Y"/>
+              </parameter>
+            </parameters>
+          </settings>
+        </videoClip>
+        <audioClip>
+          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B_/DrumAndBassVideo/LSD_Effect_(Effect_of_LSD).mov"
+                  shortName="LSD_Effect_(Effect_of_LSD).mov" ext=".mov"/>
+          <settings name="LSD_Effect_(Effect_of_LSD)" desc="QuickTime file&#13;&#10;44.100kHz, Stereo&#13;&#10;00:05:00:000"
+                    fileId="1991580546">
+            <playbackSettings>
+              <timelineMode value="2"/>
+              <bpm curValue="123.339737" defaultValue="120" startValue="30" stopValue="500"/>
+              <beats curValue="8" defaultValue="4" startValue="1" stopValue="10000"/>
+              <syncMode value="3"/>
+            </playbackSettings>
+            <parameters>
+              <parameter paramType="10" paramSubType="1" paramControlType="1" orgDuration="299999.991"
+                         duration="6315.78941">
+                <name value="Position"/>
+                <nameGiven value="Position"/>
+                <textValue value=""/>
+                <extended value="0"/>
+                <values curValue="3894702" defaultValue="0" startValue="3620841.83" stopValue="3899368.13"/>
+                <pointsOfInterest value="0"/>
+                <jumpToPointsOfInterest value="-1"/>
+                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
+                <direction value="1"/>
+                <playmode value="2"/>
+                <playmodeAway value="0"/>
+                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
+                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
+                <modifiers>
+                  <modifier type="4" index="1000">
+                    <properties>
+                      <easeIn value="0"/>
+                      <easeOut value="1"/>
+                      <option value="2"/>
+                    </properties>
+                  </modifier>
+                </modifiers>
+              </parameter>
+            </parameters>
+          </settings>
+        </audioClip>
+      </clip>
+      <clip uniqueId="11317190" layerIndex="0" trackIndex="120">
+        <settings fileId="-2013225514">
+          <name value="Loop 2"/>
+          <nameGiven value="Loop 2"/>
+          <desc value="empty clip"/>
+          <quantization value="2"/>
+          <autoPilot>
+            <action value="-1"/>
+          </autoPilot>
+        </settings>
+        <videoClip>
+          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B_/DrumAndBassVideo/Loop 2.mov"
+                  shortName="Loop 2.mov" ext=".mov"/>
+          <settings name="Loop 2" desc="H.264&#13;&#10;640x360&#13;&#10;29.96 FPS, 00:00:16:022"
+                    fileId="-2013225514" renderPassOrder="0,1,2">
+            <aScale value="0"/>
+            <SMPTEOffsetMilliseconds value="00:00:00.00"/>
+            <playbackSettings>
+              <timelineMode value="2"/>
+              <beats curValue="32" defaultValue="4" startValue="1" stopValue="10000"/>
+            </playbackSettings>
+            <parameters>
+              <parameter paramType="10" paramSubType="2" paramControlType="1" orgDuration="16021.6667"
+                         duration="16021.6667">
+                <name value="Position"/>
+                <nameGiven value="Position"/>
+                <textValue value=""/>
+                <extended value="0"/>
+                <values curValue="5963.59459" defaultValue="0" startValue="0" stopValue="16021.6667"/>
+                <pointsOfInterest value="0"/>
+                <jumpToPointsOfInterest value="-1"/>
+                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
+                <direction value="0"/>
+                <playmode value="1"/>
+                <playmodeAway value="0"/>
+                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
+                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
+                <modifiers>
+                  <modifier type="4" index="1000">
+                    <properties>
+                      <easeIn value="0"/>
+                      <easeOut value="1"/>
+                      <option value="2"/>
+                    </properties>
+                  </modifier>
+                </modifiers>
+              </parameter>
+              <parameter>
+                <name value="Height"/>
+                <nameGiven value="Height"/>
+                <values curValue="518.481013" defaultValue="360" startValue="0" stopValue="16384"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Position X"/>
+                <nameGiven value="Position X"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Position Y"/>
+                <nameGiven value="Position Y"/>
+              </parameter>
+            </parameters>
+          </settings>
+          <effects>
+            <effect uniquePresetId="10000" fileName="/Applications/Resolume Arena 4.1.11/plugins/vfx/FFGLColourPass.bundle/Contents/MacOS/FFGLColourPass"
+                    uniqueId="A143" name="Colour pass">
+              <versionInfo name="Resolume Arena" majorVersion="4" minorVersion="1" microVersion="11"
+                           revision="5588" id="1"/>
+              <parameter>
+                <name value="Opacity"/>
+                <nameGiven value="Opacity"/>
+              </parameter>
+              <parameter>
+                <name value="param1"/>
+                <nameGiven value="Hue 1"/>
+              </parameter>
+              <parameter>
+                <name value="param2"/>
+                <nameGiven value="Hue 2"/>
+              </parameter>
+              <parameter paramType="0">
+                <name value="param3"/>
+                <nameGiven value="Invert"/>
+              </parameter>
+            </effect>
+          </effects>
+        </videoClip>
+        <audioClip/>
+      </clip>
+      <clip uniqueId="11317198" layerIndex="0" trackIndex="121">
+        <settings fileId="-2013225514">
+          <name value="Loop 2"/>
+          <nameGiven value="Loop 2"/>
+          <desc value="empty clip"/>
+          <quantization value="2"/>
+          <autoPilot>
+            <action value="-1"/>
+          </autoPilot>
+        </settings>
+        <videoClip>
+          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B_/DrumAndBassVideo/Loop 2.mov"
+                  shortName="Loop 2.mov" ext=".mov"/>
+          <settings name="Loop 2" desc="H.264&#13;&#10;640x360&#13;&#10;29.96 FPS, 00:00:16:022"
+                    fileId="-2013225514" renderPassOrder="0,1,2">
+            <aScale value="0"/>
+            <SMPTEOffsetMilliseconds value="00:00:00.00"/>
+            <playbackSettings>
+              <timelineMode value="2"/>
+              <beats curValue="32" defaultValue="4" startValue="1" stopValue="10000"/>
+            </playbackSettings>
+            <parameters>
+              <parameter paramType="10" paramSubType="3" paramControlType="1" orgDuration="16021.6667"
+                         duration="16021.6667" linkedParamPath="/layer/clip/audio/position/">
+                <name value="Position"/>
+                <nameGiven value="Position"/>
+                <textValue value=""/>
+                <extended value="0"/>
+                <values curValue="11.9436063" defaultValue="0" startValue="0" stopValue="16021.6667"/>
+                <pointsOfInterest value="0"/>
+                <jumpToPointsOfInterest value="-1"/>
+                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
+                <direction value="0"/>
+                <playmode value="1"/>
+                <playmodeAway value="0"/>
+                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
+                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
+                <modifiers>
+                  <modifier type="4" index="1000">
+                    <properties>
+                      <easeIn value="0"/>
+                      <easeOut value="1"/>
+                      <option value="2"/>
+                    </properties>
+                  </modifier>
+                </modifiers>
+              </parameter>
+              <parameter>
+                <name value="Height"/>
+                <nameGiven value="Height"/>
+                <values curValue="518.481013" defaultValue="360" startValue="0" stopValue="16384"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Position X"/>
+                <nameGiven value="Position X"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Position Y"/>
+                <nameGiven value="Position Y"/>
+              </parameter>
+            </parameters>
+          </settings>
+          <effects>
+            <effect uniquePresetId="10000" fileName="/Applications/Resolume Arena 4.1.11/plugins/vfx/FFGLColourPass.bundle/Contents/MacOS/FFGLColourPass"
+                    uniqueId="A143" name="Colour pass">
+              <versionInfo name="Resolume Arena" majorVersion="4" minorVersion="1" microVersion="11"
+                           revision="5588" id="1"/>
+              <parameter>
+                <name value="Opacity"/>
+                <nameGiven value="Opacity"/>
+              </parameter>
+              <parameter>
+                <name value="param1"/>
+                <nameGiven value="Hue 1"/>
+              </parameter>
+              <parameter>
+                <name value="param2"/>
+                <nameGiven value="Hue 2"/>
+              </parameter>
+              <parameter paramType="0">
+                <name value="param3"/>
+                <nameGiven value="Invert"/>
+              </parameter>
+            </effect>
+          </effects>
+        </videoClip>
+        <audioClip>
+          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B_/DrumAndBassVideo/Loop 2.mov"
+                  shortName="Loop 2.mov" ext=".mov"/>
+          <settings name="Loop 2" desc="QuickTime file&#13;&#10;44.100kHz, Stereo&#13;&#10;00:00:16:000"
+                    fileId="-2013225514">
+            <playbackSettings>
+              <timelineMode value="2"/>
+              <bpm curValue="185.999993" defaultValue="120" startValue="30" stopValue="500"/>
+              <beats curValue="16" defaultValue="4" startValue="1" stopValue="10000"/>
+              <syncMode value="3"/>
+            </playbackSettings>
+            <parameters>
+              <parameter paramType="10" paramSubType="1" paramControlType="1" orgDuration="16000"
+                         duration="16000">
+                <name value="Position"/>
+                <nameGiven value="Position"/>
+                <textValue value=""/>
+                <extended value="0"/>
+                <values curValue="526" defaultValue="0" startValue="0" stopValue="705599"/>
+                <pointsOfInterest value="0"/>
+                <jumpToPointsOfInterest value="-1"/>
+                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
+                <direction value="0"/>
+                <playmode value="1"/>
+                <playmodeAway value="0"/>
+                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
+                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
+                <modifiers>
+                  <modifier type="4" index="1000">
+                    <properties>
+                      <easeIn value="0"/>
+                      <easeOut value="1"/>
+                      <option value="2"/>
+                    </properties>
+                  </modifier>
+                </modifiers>
+              </parameter>
+            </parameters>
+          </settings>
+        </audioClip>
+      </clip>
+      <clip uniqueId="11317175" layerIndex="0" trackIndex="122">
+        <settings fileId="1991580546">
+          <name value="LSD_Effect_(Effect_of_LSD)"/>
+          <nameGiven value="LSD_Effect_(Effect_of_LSD)"/>
+          <desc value="empty clip"/>
+          <quantization value="2"/>
+          <autoPilot>
+            <action value="-1"/>
+          </autoPilot>
+        </settings>
+        <videoClip>
+          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B_/DrumAndBassVideo/LSD_Effect_(Effect_of_LSD).mov"
+                  shortName="LSD_Effect_(Effect_of_LSD).mov" ext=".mov"/>
+          <settings name="LSD_Effect_(Effect_of_LSD)" desc="H.264&#13;&#10;320x240&#13;&#10;25 FPS, 00:05:00:767"
+                    fileId="1991580546" renderPassOrder="0,1,2">
+            <aScale value="0"/>
+            <SMPTEOffsetMilliseconds value="00:00:00.00"/>
+            <playbackSettings>
+              <timelineMode value="2"/>
+              <beats curValue="512" defaultValue="4" startValue="1" stopValue="10000"/>
+            </playbackSettings>
+            <parameters>
+              <parameter paramType="10" paramSubType="3" paramControlType="1" orgDuration="300766.667"
+                         duration="300766.667" linkedParamPath="/layer/clip/audio/position/">
+                <name value="Position"/>
+                <nameGiven value="Position"/>
+                <textValue value=""/>
+                <extended value="0"/>
+                <values curValue="167182.54" defaultValue="0" startValue="0" stopValue="300766.667"/>
+                <pointsOfInterest value="0"/>
+                <jumpToPointsOfInterest value="-1"/>
+                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
+                <direction value="0"/>
+                <playmode value="1"/>
+                <playmodeAway value="0"/>
+                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
+                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
+                <modifiers>
+                  <modifier type="4" index="1000">
+                    <properties>
+                      <easeIn value="0"/>
+                      <easeOut value="1"/>
+                      <option value="2"/>
+                    </properties>
+                  </modifier>
+                </modifiers>
+              </parameter>
+              <parameter>
+                <name value="Width"/>
+                <nameGiven value="Width"/>
+                <values curValue="725.873418" defaultValue="320" startValue="0" stopValue="16384"/>
+              </parameter>
+              <parameter>
+                <name value="Height"/>
+                <nameGiven value="Height"/>
+                <values curValue="725.873418" defaultValue="240" startValue="0" stopValue="16384"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Position X"/>
+                <nameGiven value="Position X"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Position Y"/>
+                <nameGiven value="Position Y"/>
+              </parameter>
+            </parameters>
+          </settings>
+        </videoClip>
+        <audioClip>
+          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B_/DrumAndBassVideo/LSD_Effect_(Effect_of_LSD).mov"
+                  shortName="LSD_Effect_(Effect_of_LSD).mov" ext=".mov"/>
+          <settings name="LSD_Effect_(Effect_of_LSD)" desc="QuickTime file&#13;&#10;44.100kHz, Stereo&#13;&#10;00:05:00:000"
+                    fileId="1991580546">
+            <playbackSettings>
+              <timelineMode value="2"/>
+              <bpm curValue="123.339737" defaultValue="120" startValue="30" stopValue="500"/>
+              <beats curValue="8" defaultValue="4" startValue="1" stopValue="10000"/>
+              <syncMode value="3"/>
+            </playbackSettings>
+            <parameters>
+              <parameter paramType="10" paramSubType="1" paramControlType="1" orgDuration="299999.991"
+                         duration="35789.4726">
+                <name value="Position"/>
+                <nameGiven value="Position"/>
+                <textValue value=""/>
+                <extended value="0"/>
+                <values curValue="7332654" defaultValue="0" startValue="6870315.27" stopValue="8448630.94"/>
+                <pointsOfInterest value="0"/>
+                <jumpToPointsOfInterest value="-1"/>
+                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
+                <direction value="1"/>
+                <playmode value="2"/>
+                <playmodeAway value="0"/>
+                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
+                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
+                <modifiers>
+                  <modifier type="4" index="1000">
+                    <properties>
+                      <easeIn value="0"/>
+                      <easeOut value="1"/>
+                      <option value="2"/>
+                    </properties>
+                  </modifier>
+                </modifiers>
+              </parameter>
+            </parameters>
+          </settings>
+        </audioClip>
+      </clip>
+      <clip uniqueId="11317191" layerIndex="0" trackIndex="123">
+        <settings fileId="1991580546">
+          <name value="LSD_Effect_(Effect_of_LSD)"/>
+          <nameGiven value="LSD_Effect_(Effect_of_LSD)"/>
+          <desc value="empty clip"/>
+          <quantization value="2"/>
+          <autoPilot>
+            <action value="-1"/>
+          </autoPilot>
+        </settings>
+        <videoClip>
+          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B_/DrumAndBassVideo/LSD_Effect_(Effect_of_LSD).mov"
+                  shortName="LSD_Effect_(Effect_of_LSD).mov" ext=".mov"/>
+          <settings name="LSD_Effect_(Effect_of_LSD)" desc="H.264&#13;&#10;320x240&#13;&#10;25 FPS, 00:05:00:767"
+                    fileId="1991580546" renderPassOrder="0,1,2">
+            <aScale value="0"/>
+            <SMPTEOffsetMilliseconds value="00:00:00.00"/>
+            <playbackSettings>
+              <timelineMode value="2"/>
+              <beats curValue="512" defaultValue="4" startValue="1" stopValue="10000"/>
+            </playbackSettings>
+            <parameters>
+              <parameter paramType="10" paramSubType="3" paramControlType="1" orgDuration="300766.667"
+                         duration="300766.667" linkedParamPath="/layer/clip/audio/position/">
+                <name value="Position"/>
+                <nameGiven value="Position"/>
+                <textValue value=""/>
+                <extended value="0"/>
+                <values curValue="41357.0339" defaultValue="0" startValue="0" stopValue="300766.667"/>
+                <pointsOfInterest value="0"/>
+                <jumpToPointsOfInterest value="-1"/>
+                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
+                <direction value="0"/>
+                <playmode value="1"/>
+                <playmodeAway value="0"/>
+                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
+                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
+                <modifiers>
+                  <modifier type="4" index="1000">
+                    <properties>
+                      <easeIn value="0"/>
+                      <easeOut value="1"/>
+                      <option value="2"/>
+                    </properties>
+                  </modifier>
+                </modifiers>
+              </parameter>
+              <parameter>
+                <name value="Width"/>
+                <nameGiven value="Width"/>
+                <values curValue="725.873418" defaultValue="320" startValue="0" stopValue="16384"/>
+              </parameter>
+              <parameter>
+                <name value="Height"/>
+                <nameGiven value="Height"/>
+                <values curValue="725.873418" defaultValue="240" startValue="0" stopValue="16384"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Position X"/>
+                <nameGiven value="Position X"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Position Y"/>
+                <nameGiven value="Position Y"/>
+              </parameter>
+            </parameters>
+          </settings>
+        </videoClip>
+        <audioClip>
+          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B_/DrumAndBassVideo/LSD_Effect_(Effect_of_LSD).mov"
+                  shortName="LSD_Effect_(Effect_of_LSD).mov" ext=".mov"/>
+          <settings name="LSD_Effect_(Effect_of_LSD)" desc="QuickTime file&#13;&#10;44.100kHz, Stereo&#13;&#10;00:05:00:000"
+                    fileId="1991580546">
+            <playbackSettings>
+              <timelineMode value="2"/>
+              <bpm curValue="123.339737" defaultValue="120" startValue="30" stopValue="500"/>
+              <beats curValue="32" defaultValue="4" startValue="1" stopValue="10000"/>
+              <syncMode value="3"/>
+            </playbackSettings>
+            <parameters>
+              <parameter paramType="10" paramSubType="1" paramControlType="1" orgDuration="299999.991"
+                         duration="6315.78928">
+                <name value="Position"/>
+                <nameGiven value="Position"/>
+                <textValue value=""/>
+                <extended value="0"/>
+                <values curValue="1819196" defaultValue="0" startValue="1578315.67" stopValue="1856841.96"/>
+                <pointsOfInterest value="0"/>
+                <jumpToPointsOfInterest value="-1"/>
+                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
+                <direction value="0"/>
+                <playmode value="2"/>
+                <playmodeAway value="0"/>
+                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
+                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
+                <modifiers>
+                  <modifier type="4" index="1000">
+                    <properties>
+                      <easeIn value="0"/>
+                      <easeOut value="1"/>
+                      <option value="2"/>
+                    </properties>
+                  </modifier>
+                </modifiers>
+              </parameter>
+            </parameters>
+          </settings>
+        </audioClip>
+      </clip>
+      <clip uniqueId="11317199" layerIndex="0" trackIndex="124">
+        <settings fileId="1991580546">
+          <name value="LSD_Effect_(Effect_of_LSD)"/>
+          <nameGiven value="LSD_Effect_(Effect_of_LSD)"/>
+          <desc value="empty clip"/>
+          <quantization value="2"/>
+          <autoPilot>
+            <action value="-1"/>
+          </autoPilot>
+        </settings>
+        <videoClip>
+          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B_/DrumAndBassVideo/LSD_Effect_(Effect_of_LSD).mov"
+                  shortName="LSD_Effect_(Effect_of_LSD).mov" ext=".mov"/>
+          <settings name="LSD_Effect_(Effect_of_LSD)" desc="H.264&#13;&#10;320x240&#13;&#10;25 FPS, 00:05:00:767"
+                    fileId="1991580546" renderPassOrder="0,1,2">
+            <aScale value="0"/>
+            <SMPTEOffsetMilliseconds value="00:00:00.00"/>
+            <playbackSettings>
+              <timelineMode value="2"/>
+              <beats curValue="512" defaultValue="4" startValue="1" stopValue="10000"/>
+            </playbackSettings>
+            <parameters>
+              <parameter paramType="10" paramSubType="3" paramControlType="1" orgDuration="300766.667"
+                         duration="300766.667" linkedParamPath="/layer/clip/audio/position/">
+                <name value="Position"/>
+                <nameGiven value="Position"/>
+                <textValue value=""/>
+                <extended value="0"/>
+                <values curValue="38694.7144" defaultValue="0" startValue="0" stopValue="300766.667"/>
+                <pointsOfInterest value="0"/>
+                <jumpToPointsOfInterest value="-1"/>
+                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
+                <direction value="0"/>
+                <playmode value="1"/>
+                <playmodeAway value="0"/>
+                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
+                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
+                <modifiers>
+                  <modifier type="4" index="1000">
+                    <properties>
+                      <easeIn value="0"/>
+                      <easeOut value="1"/>
+                      <option value="2"/>
+                    </properties>
+                  </modifier>
+                </modifiers>
+              </parameter>
+              <parameter>
+                <name value="Width"/>
+                <nameGiven value="Width"/>
+                <values curValue="725.873418" defaultValue="320" startValue="0" stopValue="16384"/>
+              </parameter>
+              <parameter>
+                <name value="Height"/>
+                <nameGiven value="Height"/>
+                <values curValue="725.873418" defaultValue="240" startValue="0" stopValue="16384"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Position X"/>
+                <nameGiven value="Position X"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Position Y"/>
+                <nameGiven value="Position Y"/>
+              </parameter>
+            </parameters>
+          </settings>
+        </videoClip>
+        <audioClip>
+          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B_/DrumAndBassVideo/LSD_Effect_(Effect_of_LSD).mov"
+                  shortName="LSD_Effect_(Effect_of_LSD).mov" ext=".mov"/>
+          <settings name="LSD_Effect_(Effect_of_LSD)" desc="QuickTime file&#13;&#10;44.100kHz, Stereo&#13;&#10;00:05:00:000"
+                    fileId="1991580546">
+            <playbackSettings>
+              <timelineMode value="2"/>
+              <bpm curValue="123.339737" defaultValue="120" startValue="30" stopValue="500"/>
+              <beats curValue="32" defaultValue="4" startValue="1" stopValue="10000"/>
+              <syncMode value="3"/>
+            </playbackSettings>
+            <parameters>
+              <parameter paramType="10" paramSubType="1" paramControlType="1" orgDuration="299999.996"
+                         duration="6315.78928">
+                <name value="Position"/>
+                <nameGiven value="Position"/>
+                <textValue value=""/>
+                <extended value="0"/>
+                <values curValue="1701774" defaultValue="0" startValue="1578315.67" stopValue="1856841.96"/>
+                <pointsOfInterest value="0"/>
+                <jumpToPointsOfInterest value="-1"/>
+                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
+                <direction value="1"/>
+                <playmode value="2"/>
+                <playmodeAway value="0"/>
+                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
+                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
+                <modifiers>
+                  <modifier type="4" index="1000">
+                    <properties>
+                      <easeIn value="0"/>
+                      <easeOut value="1"/>
+                      <option value="2"/>
+                    </properties>
+                  </modifier>
+                </modifiers>
+              </parameter>
+            </parameters>
+          </settings>
+        </audioClip>
+      </clip>
+      <clip uniqueId="11317195" layerIndex="0" trackIndex="125">
+        <settings fileId="1991580546">
+          <name value="LSD_Effect_(Effect_of_LSD)"/>
+          <nameGiven value="LSD_Effect_(Effect_of_LSD)"/>
+          <desc value="empty clip"/>
+          <quantization value="2"/>
+          <autoPilot>
+            <action value="-1"/>
+          </autoPilot>
+        </settings>
+        <videoClip>
+          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B_/DrumAndBassVideo/LSD_Effect_(Effect_of_LSD).mov"
+                  shortName="LSD_Effect_(Effect_of_LSD).mov" ext=".mov"/>
+          <settings name="LSD_Effect_(Effect_of_LSD)" desc="H.264&#13;&#10;320x240&#13;&#10;25 FPS, 00:05:00:767"
+                    fileId="1991580546" renderPassOrder="0,1,2">
+            <aScale value="0"/>
+            <SMPTEOffsetMilliseconds value="00:00:00.00"/>
+            <playbackSettings>
+              <timelineMode value="2"/>
+              <beats curValue="512" defaultValue="4" startValue="1" stopValue="10000"/>
+            </playbackSettings>
+            <parameters>
+              <parameter paramType="10" paramSubType="3" paramControlType="1" orgDuration="300766.667"
+                         duration="300766.667" linkedParamPath="/layer/clip/audio/position/">
+                <name value="Position"/>
+                <nameGiven value="Position"/>
+                <textValue value=""/>
+                <extended value="0"/>
+                <values curValue="180634.199" defaultValue="0" startValue="0" stopValue="300766.667"/>
+                <pointsOfInterest value="0"/>
+                <jumpToPointsOfInterest value="-1"/>
+                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
+                <direction value="0"/>
+                <playmode value="1"/>
+                <playmodeAway value="0"/>
+                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
+                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
+                <modifiers>
+                  <modifier type="4" index="1000">
+                    <properties>
+                      <easeIn value="0"/>
+                      <easeOut value="1"/>
+                      <option value="2"/>
+                    </properties>
+                  </modifier>
+                </modifiers>
+              </parameter>
+              <parameter>
+                <name value="Width"/>
+                <nameGiven value="Width"/>
+                <values curValue="725.873418" defaultValue="320" startValue="0" stopValue="16384"/>
+              </parameter>
+              <parameter>
+                <name value="Height"/>
+                <nameGiven value="Height"/>
+                <values curValue="725.873418" defaultValue="240" startValue="0" stopValue="16384"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Position X"/>
+                <nameGiven value="Position X"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Position Y"/>
+                <nameGiven value="Position Y"/>
+              </parameter>
+            </parameters>
+          </settings>
+        </videoClip>
+        <audioClip>
+          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B_/DrumAndBassVideo/LSD_Effect_(Effect_of_LSD).mov"
+                  shortName="LSD_Effect_(Effect_of_LSD).mov" ext=".mov"/>
+          <settings name="LSD_Effect_(Effect_of_LSD)" desc="QuickTime file&#13;&#10;44.100kHz, Stereo&#13;&#10;00:05:00:000"
+                    fileId="1991580546">
+            <playbackSettings>
+              <timelineMode value="2"/>
+              <bpm curValue="123.339737" defaultValue="120" startValue="30" stopValue="500"/>
+              <beats curValue="8" defaultValue="4" startValue="1" stopValue="10000"/>
+              <syncMode value="3"/>
+            </playbackSettings>
+            <parameters>
+              <parameter paramType="10" paramSubType="1" paramControlType="1" orgDuration="299999.991"
+                         duration="35789.4726">
+                <name value="Position"/>
+                <nameGiven value="Position"/>
+                <textValue value=""/>
+                <extended value="0"/>
+                <values curValue="7945662" defaultValue="0" startValue="6870315.27" stopValue="8448630.94"/>
+                <pointsOfInterest value="0"/>
+                <jumpToPointsOfInterest value="-1"/>
+                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
+                <direction value="0"/>
+                <playmode value="2"/>
+                <playmodeAway value="0"/>
+                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
+                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
+                <modifiers>
+                  <modifier type="4" index="1000">
+                    <properties>
+                      <easeIn value="0"/>
+                      <easeOut value="1"/>
+                      <option value="2"/>
+                    </properties>
+                  </modifier>
+                </modifiers>
+              </parameter>
+            </parameters>
+          </settings>
+        </audioClip>
+      </clip>
+      <clip uniqueId="11317196" layerIndex="0" trackIndex="126">
+        <settings fileId="1991580546">
+          <name value="LSD_Effect_(Effect_of_LSD)"/>
+          <nameGiven value="LSD_Effect_(Effect_of_LSD)"/>
+          <desc value="empty clip"/>
+          <quantization value="2"/>
+          <autoPilot>
+            <action value="-1"/>
+          </autoPilot>
+        </settings>
+        <videoClip>
+          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B_/DrumAndBassVideo/LSD_Effect_(Effect_of_LSD).mov"
+                  shortName="LSD_Effect_(Effect_of_LSD).mov" ext=".mov"/>
+          <settings name="LSD_Effect_(Effect_of_LSD)" desc="H.264&#13;&#10;320x240&#13;&#10;25 FPS, 00:05:00:767"
+                    fileId="1991580546" renderPassOrder="0,1,2">
+            <aScale value="0"/>
+            <SMPTEOffsetMilliseconds value="00:00:00.00"/>
+            <playbackSettings>
+              <timelineMode value="2"/>
+              <beats curValue="512" defaultValue="4" startValue="1" stopValue="10000"/>
+            </playbackSettings>
+            <parameters>
+              <parameter paramType="10" paramSubType="3" paramControlType="1" orgDuration="300766.667"
+                         duration="300766.667" linkedParamPath="/layer/clip/audio/position/">
+                <name value="Position"/>
+                <nameGiven value="Position"/>
+                <textValue value=""/>
+                <extended value="0"/>
+                <values curValue="169483.416" defaultValue="0" startValue="0" stopValue="300766.667"/>
+                <pointsOfInterest value="0"/>
+                <jumpToPointsOfInterest value="-1"/>
+                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
+                <direction value="0"/>
+                <playmode value="1"/>
+                <playmodeAway value="0"/>
+                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
+                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
+                <modifiers>
+                  <modifier type="4" index="1000">
+                    <properties>
+                      <easeIn value="0"/>
+                      <easeOut value="1"/>
+                      <option value="2"/>
+                    </properties>
+                  </modifier>
+                </modifiers>
+              </parameter>
+              <parameter>
+                <name value="Width"/>
+                <nameGiven value="Width"/>
+                <values curValue="725.873418" defaultValue="320" startValue="0" stopValue="16384"/>
+              </parameter>
+              <parameter>
+                <name value="Height"/>
+                <nameGiven value="Height"/>
+                <values curValue="725.873418" defaultValue="240" startValue="0" stopValue="16384"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Position X"/>
+                <nameGiven value="Position X"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Position Y"/>
+                <nameGiven value="Position Y"/>
+              </parameter>
+            </parameters>
+          </settings>
+        </videoClip>
+        <audioClip>
+          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B_/DrumAndBassVideo/LSD_Effect_(Effect_of_LSD).mov"
+                  shortName="LSD_Effect_(Effect_of_LSD).mov" ext=".mov"/>
+          <settings name="LSD_Effect_(Effect_of_LSD)" desc="QuickTime file&#13;&#10;44.100kHz, Stereo&#13;&#10;00:05:00:000"
+                    fileId="1991580546">
+            <playbackSettings>
+              <timelineMode value="2"/>
+              <bpm curValue="123.339737" defaultValue="120" startValue="30" stopValue="500"/>
+              <beats curValue="8" defaultValue="4" startValue="1" stopValue="10000"/>
+              <syncMode value="3"/>
+            </playbackSettings>
+            <parameters>
+              <parameter paramType="10" paramSubType="1" paramControlType="1" orgDuration="299999.991"
+                         duration="35789.4726">
+                <name value="Position"/>
+                <nameGiven value="Position"/>
+                <textValue value=""/>
+                <extended value="0"/>
+                <values curValue="7455166" defaultValue="0" startValue="6870315.27" stopValue="8448630.94"/>
                 <pointsOfInterest value="0"/>
                 <jumpToPointsOfInterest value="-1"/>
                 <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
@@ -16954,11 +16969,12 @@
               <parameter paramType="110">
                 <name value="Alpha Type"/>
                 <nameGiven value="Alpha Type"/>
-                <choices value="2"/>
+                <choices value="1"/>
               </parameter>
               <parameter paramControlType="2">
                 <name value="Duration"/>
                 <nameGiven value="Duration"/>
+                <values curValue="5000" defaultValue="5000" startValue="0" stopValue="2.0736e+09"/>
               </parameter>
             </settings>
           </provider>
@@ -20929,6 +20945,411 @@
                 <textValue value=""/>
                 <extended value="0"/>
                 <values curValue="500505" defaultValue="0" startValue="0" stopValue="691373.323"/>
+                <pointsOfInterest value="0"/>
+                <jumpToPointsOfInterest value="-1"/>
+                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
+                <direction value="0"/>
+                <playmode value="1"/>
+                <playmodeAway value="0"/>
+                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
+                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
+                <modifiers>
+                  <modifier type="4" index="1000">
+                    <properties>
+                      <easeIn value="0"/>
+                      <easeOut value="1"/>
+                      <option value="2"/>
+                    </properties>
+                  </modifier>
+                </modifiers>
+              </parameter>
+            </parameters>
+          </settings>
+        </audioClip>
+      </clip>
+      <clip uniqueId="11317174" layerIndex="1" trackIndex="121">
+        <settings fileId="1991580546">
+          <name value="LSD_Effect_(Effect_of_LSD)"/>
+          <nameGiven value="LSD_Effect_(Effect_of_LSD)"/>
+          <desc value="empty clip"/>
+          <quantization value="2"/>
+          <autoPilot>
+            <action value="-1"/>
+          </autoPilot>
+        </settings>
+        <videoClip>
+          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B_/DrumAndBassVideo/LSD_Effect_(Effect_of_LSD).mov"
+                  shortName="LSD_Effect_(Effect_of_LSD).mov" ext=".mov"/>
+          <settings name="LSD_Effect_(Effect_of_LSD)" desc="H.264&#13;&#10;320x240&#13;&#10;25 FPS, 00:05:00:767"
+                    fileId="1991580546" renderPassOrder="0,1,2">
+            <aScale value="0"/>
+            <SMPTEOffsetMilliseconds value="00:00:00.00"/>
+            <playbackSettings>
+              <timelineMode value="2"/>
+              <beats curValue="512" defaultValue="4" startValue="1" stopValue="10000"/>
+            </playbackSettings>
+            <parameters>
+              <parameter paramType="10" paramSubType="3" paramControlType="1" orgDuration="300766.667"
+                         duration="300766.667" linkedParamPath="/layer/clip/audio/position/">
+                <name value="Position"/>
+                <nameGiven value="Position"/>
+                <textValue value=""/>
+                <extended value="0"/>
+                <values curValue="48327.569" defaultValue="0" startValue="0" stopValue="300766.667"/>
+                <pointsOfInterest value="0"/>
+                <jumpToPointsOfInterest value="-1"/>
+                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
+                <direction value="0"/>
+                <playmode value="1"/>
+                <playmodeAway value="0"/>
+                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
+                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
+                <modifiers>
+                  <modifier type="4" index="1000">
+                    <properties>
+                      <easeIn value="0"/>
+                      <easeOut value="1"/>
+                      <option value="2"/>
+                    </properties>
+                  </modifier>
+                </modifiers>
+              </parameter>
+              <parameter>
+                <name value="Width"/>
+                <nameGiven value="Width"/>
+                <values curValue="725.873418" defaultValue="320" startValue="0" stopValue="16384"/>
+              </parameter>
+              <parameter>
+                <name value="Height"/>
+                <nameGiven value="Height"/>
+                <values curValue="725.873418" defaultValue="240" startValue="0" stopValue="16384"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Position X"/>
+                <nameGiven value="Position X"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Position Y"/>
+                <nameGiven value="Position Y"/>
+              </parameter>
+            </parameters>
+          </settings>
+        </videoClip>
+        <audioClip>
+          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B_/DrumAndBassVideo/LSD_Effect_(Effect_of_LSD).mov"
+                  shortName="LSD_Effect_(Effect_of_LSD).mov" ext=".mov"/>
+          <settings name="LSD_Effect_(Effect_of_LSD)" desc="QuickTime file&#13;&#10;44.100kHz, Stereo&#13;&#10;00:05:00:000"
+                    fileId="1991580546">
+            <playbackSettings>
+              <timelineMode value="2"/>
+              <bpm curValue="123.339737" defaultValue="120" startValue="30" stopValue="500"/>
+              <beats curValue="32" defaultValue="4" startValue="1" stopValue="10000"/>
+              <syncMode value="3"/>
+            </playbackSettings>
+            <parameters>
+              <parameter paramType="10" paramSubType="1" paramControlType="1" orgDuration="299999.991"
+                         duration="26315.7887">
+                <name value="Position"/>
+                <nameGiven value="Position"/>
+                <textValue value=""/>
+                <extended value="0"/>
+                <values curValue="2125813" defaultValue="0" startValue="1949684.06" stopValue="3110210.29"/>
+                <pointsOfInterest value="0"/>
+                <jumpToPointsOfInterest value="-1"/>
+                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
+                <direction value="3"/>
+                <playmode value="2"/>
+                <playmodeAway value="0"/>
+                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
+                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
+                <modifiers>
+                  <modifier type="4" index="1000">
+                    <properties>
+                      <easeIn value="0"/>
+                      <easeOut value="1"/>
+                      <option value="2"/>
+                    </properties>
+                  </modifier>
+                </modifiers>
+              </parameter>
+            </parameters>
+          </settings>
+        </audioClip>
+      </clip>
+      <clip uniqueId="11317207" layerIndex="1" trackIndex="124">
+        <settings fileId="-2013225514">
+          <name value="Loop 2"/>
+          <nameGiven value="Loop 2"/>
+          <desc value="empty clip"/>
+          <quantization value="2"/>
+          <autoPilot>
+            <action value="-1"/>
+          </autoPilot>
+        </settings>
+        <videoClip>
+          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B_/DrumAndBassVideo/Loop 2.mov"
+                  shortName="Loop 2.mov" ext=".mov"/>
+          <settings name="Loop 2" desc="H.264&#13;&#10;640x360&#13;&#10;29.96 FPS, 00:00:16:022"
+                    fileId="-2013225514" renderPassOrder="0,1,2">
+            <aScale value="0"/>
+            <SMPTEOffsetMilliseconds value="00:00:00.00"/>
+            <playbackSettings>
+              <timelineMode value="2"/>
+              <beats curValue="32" defaultValue="4" startValue="1" stopValue="10000"/>
+            </playbackSettings>
+            <parameters>
+              <parameter paramType="10" paramSubType="2" paramControlType="1" orgDuration="16021.6667"
+                         duration="16021.6667">
+                <name value="Position"/>
+                <nameGiven value="Position"/>
+                <textValue value=""/>
+                <extended value="0"/>
+                <values curValue="5795.36946" defaultValue="0" startValue="0" stopValue="16021.6667"/>
+                <pointsOfInterest value="0"/>
+                <jumpToPointsOfInterest value="-1"/>
+                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
+                <direction value="0"/>
+                <playmode value="1"/>
+                <playmodeAway value="0"/>
+                <linkMultiplier curValue="32" defaultValue="1" startValue="1" stopValue="4096"/>
+                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
+                <modifiers>
+                  <modifier type="4" index="1000">
+                    <properties>
+                      <easeIn value="0"/>
+                      <easeOut value="1"/>
+                      <option value="2"/>
+                    </properties>
+                  </modifier>
+                </modifiers>
+              </parameter>
+              <parameter>
+                <name value="Height"/>
+                <nameGiven value="Height"/>
+                <values curValue="518.481013" defaultValue="360" startValue="0" stopValue="16384"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Position X"/>
+                <nameGiven value="Position X"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Position Y"/>
+                <nameGiven value="Position Y"/>
+              </parameter>
+            </parameters>
+          </settings>
+          <effects>
+            <effect uniquePresetId="10000" fileName="/Applications/Resolume Arena 4.1.11/plugins/vfx/FFGLColourPass.bundle/Contents/MacOS/FFGLColourPass"
+                    uniqueId="A143" name="Colour pass">
+              <versionInfo name="Resolume Arena" majorVersion="4" minorVersion="1" microVersion="11"
+                           revision="5588" id="1"/>
+              <parameter>
+                <name value="Opacity"/>
+                <nameGiven value="Opacity"/>
+              </parameter>
+              <parameter>
+                <name value="param1"/>
+                <nameGiven value="Hue 1"/>
+              </parameter>
+              <parameter>
+                <name value="param2"/>
+                <nameGiven value="Hue 2"/>
+              </parameter>
+              <parameter paramType="0">
+                <name value="param3"/>
+                <nameGiven value="Invert"/>
+              </parameter>
+            </effect>
+          </effects>
+        </videoClip>
+        <audioClip/>
+      </clip>
+      <clip uniqueId="11317197" layerIndex="1" trackIndex="125">
+        <settings fileId="-2013225514">
+          <name value="Loop 2"/>
+          <nameGiven value="Loop 2"/>
+          <desc value="empty clip"/>
+          <quantization value="2"/>
+          <autoPilot>
+            <action value="-1"/>
+          </autoPilot>
+        </settings>
+        <videoClip>
+          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B_/DrumAndBassVideo/Loop 2.mov"
+                  shortName="Loop 2.mov" ext=".mov"/>
+          <settings name="Loop 2" desc="H.264&#13;&#10;640x360&#13;&#10;29.96 FPS, 00:00:16:022"
+                    fileId="-2013225514" renderPassOrder="0,1,2">
+            <aScale value="0"/>
+            <SMPTEOffsetMilliseconds value="00:00:00.00"/>
+            <playbackSettings>
+              <timelineMode value="2"/>
+              <beats curValue="32" defaultValue="4" startValue="1" stopValue="10000"/>
+            </playbackSettings>
+            <parameters>
+              <parameter paramType="10" paramSubType="3" paramControlType="1" orgDuration="16021.6667"
+                         duration="16021.6667" linkedParamPath="/layer/clip/audio/position/">
+                <name value="Position"/>
+                <nameGiven value="Position"/>
+                <textValue value=""/>
+                <extended value="0"/>
+                <values curValue="5225.78189" defaultValue="0" startValue="0" stopValue="16021.6667"/>
+                <pointsOfInterest value="0"/>
+                <jumpToPointsOfInterest value="-1"/>
+                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
+                <direction value="0"/>
+                <playmode value="1"/>
+                <playmodeAway value="0"/>
+                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
+                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
+                <modifiers>
+                  <modifier type="4" index="1000">
+                    <properties>
+                      <easeIn value="0"/>
+                      <easeOut value="1"/>
+                      <option value="2"/>
+                    </properties>
+                  </modifier>
+                </modifiers>
+              </parameter>
+              <parameter>
+                <name value="Height"/>
+                <nameGiven value="Height"/>
+                <values curValue="518.481013" defaultValue="360" startValue="0" stopValue="16384"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Position X"/>
+                <nameGiven value="Position X"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Position Y"/>
+                <nameGiven value="Position Y"/>
+              </parameter>
+            </parameters>
+          </settings>
+        </videoClip>
+        <audioClip>
+          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B_/DrumAndBassVideo/Loop 2.mov"
+                  shortName="Loop 2.mov" ext=".mov"/>
+          <settings name="Loop 2" desc="QuickTime file&#13;&#10;44.100kHz, Stereo&#13;&#10;00:00:16:000"
+                    fileId="-2013225514">
+            <playbackSettings>
+              <timelineMode value="2"/>
+              <bpm curValue="185.999993" defaultValue="120" startValue="30" stopValue="500"/>
+              <beats curValue="16" defaultValue="4" startValue="1" stopValue="10000"/>
+              <syncMode value="3"/>
+            </playbackSettings>
+            <parameters>
+              <parameter paramType="10" paramSubType="1" paramControlType="1" orgDuration="16000"
+                         duration="16000">
+                <name value="Position"/>
+                <nameGiven value="Position"/>
+                <textValue value=""/>
+                <extended value="0"/>
+                <values curValue="230145" defaultValue="0" startValue="0" stopValue="705599"/>
+                <pointsOfInterest value="0"/>
+                <jumpToPointsOfInterest value="-1"/>
+                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
+                <direction value="0"/>
+                <playmode value="1"/>
+                <playmodeAway value="0"/>
+                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
+                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
+                <modifiers>
+                  <modifier type="4" index="1000">
+                    <properties>
+                      <easeIn value="0"/>
+                      <easeOut value="1"/>
+                      <option value="2"/>
+                    </properties>
+                  </modifier>
+                </modifiers>
+              </parameter>
+            </parameters>
+          </settings>
+        </audioClip>
+      </clip>
+      <clip uniqueId="11317208" layerIndex="1" trackIndex="126">
+        <settings fileId="-2013225514">
+          <name value="Loop 2"/>
+          <nameGiven value="Loop 2"/>
+          <desc value="empty clip"/>
+          <quantization value="2"/>
+          <autoPilot>
+            <action value="-1"/>
+          </autoPilot>
+        </settings>
+        <videoClip>
+          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B_/DrumAndBassVideo/Loop 2.mov"
+                  shortName="Loop 2.mov" ext=".mov"/>
+          <settings name="Loop 2" desc="H.264&#13;&#10;640x360&#13;&#10;29.96 FPS, 00:00:16:022"
+                    fileId="-2013225514" renderPassOrder="0,1,2">
+            <aScale value="0"/>
+            <SMPTEOffsetMilliseconds value="00:00:00.00"/>
+            <playbackSettings>
+              <timelineMode value="2"/>
+              <beats curValue="32" defaultValue="4" startValue="1" stopValue="10000"/>
+            </playbackSettings>
+            <parameters>
+              <parameter paramType="10" paramSubType="3" paramControlType="1" orgDuration="16021.6667"
+                         duration="16021.6667" linkedParamPath="/layer/clip/audio/position/">
+                <name value="Position"/>
+                <nameGiven value="Position"/>
+                <textValue value=""/>
+                <extended value="0"/>
+                <values curValue="2968.4403" defaultValue="0" startValue="0" stopValue="16021.6667"/>
+                <pointsOfInterest value="0"/>
+                <jumpToPointsOfInterest value="-1"/>
+                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
+                <direction value="0"/>
+                <playmode value="1"/>
+                <playmodeAway value="0"/>
+                <linkMultiplier curValue="1" defaultValue="1" startValue="1" stopValue="4096"/>
+                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
+                <modifiers>
+                  <modifier type="4" index="1000">
+                    <properties>
+                      <easeIn value="0"/>
+                      <easeOut value="1"/>
+                      <option value="2"/>
+                    </properties>
+                  </modifier>
+                </modifiers>
+              </parameter>
+              <parameter>
+                <name value="Height"/>
+                <nameGiven value="Height"/>
+                <values curValue="518.481013" defaultValue="360" startValue="0" stopValue="16384"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Position X"/>
+                <nameGiven value="Position X"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Position Y"/>
+                <nameGiven value="Position Y"/>
+              </parameter>
+            </parameters>
+          </settings>
+        </videoClip>
+        <audioClip>
+          <source type="file" couldContainVideo="1" couldContainAudio="1" name="/Users/francescocerone/Documents/ProgettoVideoD&amp;B_/DrumAndBassVideo/Loop 2.mov"
+                  shortName="Loop 2.mov" ext=".mov"/>
+          <settings name="Loop 2" desc="QuickTime file&#13;&#10;44.100kHz, Stereo&#13;&#10;00:00:16:000"
+                    fileId="-2013225514">
+            <playbackSettings>
+              <timelineMode value="2"/>
+              <bpm curValue="185.999993" defaultValue="120" startValue="30" stopValue="500"/>
+              <beats curValue="16" defaultValue="4" startValue="1" stopValue="10000"/>
+              <syncMode value="3"/>
+            </playbackSettings>
+            <parameters>
+              <parameter paramType="10" paramSubType="1" paramControlType="1" orgDuration="16000"
+                         duration="16000">
+                <name value="Position"/>
+                <nameGiven value="Position"/>
+                <textValue value=""/>
+                <extended value="0"/>
+                <values curValue="130731" defaultValue="0" startValue="0" stopValue="705599"/>
                 <pointsOfInterest value="0"/>
                 <jumpToPointsOfInterest value="-1"/>
                 <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
